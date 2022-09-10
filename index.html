@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube-video-page</title>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="index.css" class="css">
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <div id="navbar-container">
+
+        <div id="logo" class="nav-layout">
+            <img src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg" alt="Youtube Logo">
+        </div>
+
+        <div id="search-bar" class="nav-layout">
+            <input id="searchbar" name="searchbar" type="text" placeholder="search here...">
+        </div>
+
+        <nav id="navbar" class="nav-layout">
+            <ul>
+                <li><a href="">Create</a></li>
+                <li><a href="">Notification</a></li>
+                <li><a href="">Profile</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/q9HYm6_e66c"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+
+        </div>
+
+        <div class="suggest-video">
+            <h3>Suggested Videos</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ho38J1dmq7I?controls=0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wK7D3-yQxqA?controls=0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0GsQwtu8ff4?controls=0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PLlwuNTaKwASrt9FTwM7iwR9Br0csy8yCU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    
+
+    <div id="form-section">
+        <p>views = 1500  likes = 200 share</p>
+        <h3>Introduction to Waveform 12 by Tracktion</h3>
+        <form action="">
+            <label for="comment">Comment </label>
+            <input type="text" id="comment" name="comment" placeholder="Type comments here">
+            <br>
+            <input type="submit">
+        </form>
+
+    </div>
+
+  
+
+
 </body>
+
 </html>

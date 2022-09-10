@@ -1,3 +1,171 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+background-color: rgb(19, 21, 22);
+}
+
+.nav-layout {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+    height: 130px;
+    
+}
+
+/* div #logo {
+width: 300px;
+} */
+
+img {
+    width: 200px;
+    position: relative;
+    bottom: 12px;
+    height: 70px;
+
+}
+
+
+ #search-bar input  {
+padding: 12px 100px;
+position: relative;
+left: 100px;
+}
+
+input {
+
+}
+
+/* div #search-bar {
+    position: relative;
+    top: 3px;
+    width: 300px;
+} */
+/* #navbar {
+width: 300px;
+position: relative;
+left: 50px;
+} */
+
+li {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+
+li a {
+    padding: 8px 24px;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+    left: 180px;
+    border: 1px solid rgb(59, 20, 20);
+    color: brown;
+    background-color: darkgrey;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: rgb(65, 13, 13);
+    color: white;
+}
+
+ul {
+    height: 50px;
+    position: relative;
+    bottom: 14px;
+}
+
+/* div .video {
+    position:relative;
+    top: 100px;
+} */
+
+/* video section */
+
+.video {
+    float: left;
+    width: 75%;
+   margin: 40px 0px;
+
+
+}
+.video iframe {
+    width: 85%;
+    height: 800px;
+    margin: 2px 2px 1px 34px;
+}
+
+.suggest-video h3 {
+color: white;
+background-color: black;
+width: 62%;
+}
+.suggest-video {
+    float: right;
+width: 25%;
+margin: 10px 0px;
+padding: 0;
+}
+
+.suggest-video iframe {
+    width: 300px;
+    height: 200px;
+    padding: 0px 6px;
+}
+
+/* form section */
+
+/* form input [type=text]  {
+width: 60%;
+height: 75px;
+display: inline-block;
+} */
+
+input[type=text] {
+    width: 60%;
+    background-color: bisque;
+    padding: 30px 20px ;
+    position: relative;
+    left: 25px;
+    bottom: 25px;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 200px;
+  }
+  input[type=submit]:hover {
+    background-color:#1d6d1d;
+  }
+
+  #form-section label {
+    color: white;
+    font-size: 20px;
+    margin: 40px 25px
+    
+  }
+
+  #form-section p {
+    color: white;
+    font-size: 20px;
+    margin: 0px 25px
+    
+  }
+  #form-section h3 {
+    color: white;
+    font-size: 20px;
+    margin: 40px 25px
+    
+  }
